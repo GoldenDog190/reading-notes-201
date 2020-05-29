@@ -26,18 +26,32 @@
 - Tags: contain a left-angle bracket, a character in the middle, and a right-angle bracket on the end.
 - Attributes: provide additional information about the contents of the element, and appear in the opening tag of the element. Made up of 2 parts: a name and a value, seperated by an equals sign. 
 - HTML Structure: contains at the very least the body, head, and title.
-  * <body> Element: everything inside this element is shown inside the main browser window.
-  * <head> Element: it is placed before the <body> element, contains the information about the page, and cannot be see by the viewer of the site.
-  * <title> Element: this element is placed between the opening and closing <head> tags, and anything written between the <title> tags will appear in the title or tab bar at the top of the broswer window.
+  * Body Element (<body>): everything between this element is shown inside the main browser window.
+  * Head Element: it is placed before the body element, contains the information about the page, and cannot be see by the viewer of the site.
+  * Title Element: this element is placed between the opening and closing head tags, and anything written between the <title> tags will appear in the title or tab bar at the top of the broswer window.
 
 ## HTML Chapter 8 "Extra Markup":
 
-**Extra Markup**
-- Examples of extra markup
-1. DOCTYPES - <!DOCTYPE html>
-2. Comments in HTML - <!-- -->
-3. Block Elements - elements that will always appear to start on a new line in the browser of the window
-4. Inline Elements - elements that will always appear to continue on the same line as their nieghboring elements
+**Evolution of HTML**
+* There are several different versions of HTML:
+1. HTML 4 released in 1997
+2. XHTML 1.0 released in 2000
+3. HTML5 work in progress
+
+**DOCTYPES**
+> *DOCTYPES* tell browsers which version of HTML you are using, and are put at the very top of your HTML structure.
+
+**Comments in HTML**
+ - You should always put comments in your code, so that you and other people will know what code you are working on and can come back to it, as well as what that code does and what you are trying to do with it, so it can be debugged later. 
+  * For comments put an opening bracket, closing bracket, and put this inside of the brackets: !-- comment in here --
+
+**ID Attribute**
+
+**Block Elements** 
+- elements that will always appear to start on a new line in the browser of the window
+
+**Inline Elements** 
+- elements that will always appear to continue on the same line as their nieghboring elements
 
 ## HTML Chapter 17 "HTML5 Layout" Notes:
 
