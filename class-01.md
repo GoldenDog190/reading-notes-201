@@ -47,37 +47,50 @@
   * For comments put an left-angle bracket, right-angle bracket, and put this inside of the brackets: !-- comment in here --
 
 **ID Attribute**
-- 
+- Every HTML element can carry the id attribute, and is used to uniquely that element from other elements on the page. Its value should start with a letter or an underscore. Cannot use the same value twice on the same page. 
 
 **Class Attribute**
-- 
+- Every HTML element can also carry a class attribute. its value should describe the class it belongs to, and the class attribute on any element can be share the same value.
 
-**Grouping Text & Elemnets in a Block**
-- 
+**Grouping Text & Elements in a Block**
+- The div element allows you to group a set of elements together in one block level box. 
+  * For the div element: put an left-angle bracket, right-angle bracket, and put this inside of the brackets: div
 
 **Grouping Text & Elements Inline**
-- 
+- The span element acts like an inline equivalent of the div element. 
+- It is used to either: contain a section of text where there is no other suitable element to differentiaite it from surrounding text or contains a number of inline elelmenets.
+- The span element is also used so that you can control the appearance of the content of these elements using CSS.
+  * For the span element put an left-angle bracket, right-angle bracket, and put this inside of the brackets: span
 
 **iFrames**
-- 
+- It is like a window that has been cut into your page, and is used to imbed things, such as maps into the page. 
+   * Created using an left-angle bracket, right-angle bracket, and put this inside of the brackets: iframe
+   * Can also put a few attributes inside of the iframe element, such as src, height, width, scrolling, frameborder, and seamless.
 
 **Information about your Pages**
-- 
+- The meta element lives iside of the head element and contains information about that web page.
+   * Created using an left-angle bracket, right-angle bracket, and put this inside of the brackets: meta
+   *  Can also put a few attributes inside of the meta element, such as description, keywords, robots, author, pragma, and expires.
 
 **Escape Characters**
-- 
+- They are characters that are used in and reserved by HTML code. 
+   * Example: left-angle and right-angle brackets
 
 **Block Elements** 
-- elements that will always appear to start on a new line in the browser of the window
+- Block elements that will always appear to start on a new line in the browser of the window.
+  * For block elements put an left-angle bracket, right-angle bracket, and put this inside of the brackets: h1 
+  * Other Examples: h2, p, ul, & li
 
 **Inline Elements** 
-- elements that will always appear to continue on the same line as their nieghboring elements
+- Inline elements that will always appear to continue on the same line as their nieghboring elements.
+ * For inline elements put an left-angle bracket, right-angle bracket, and put this inside of the brackets: a
+ * Other Examples: b, em, & img
 
 ## HTML Chapter 17 "HTML5 Layout" Notes:
 
 **HTML5 Layout Elements**
 
-> New HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure. Also, provides clearer code, and help older browsers to understand the new code elements.
+> New HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure. Also, provides clearer code, and helps the older browsers to understand the new code elements. To make HTML5 elements work in Internet Explorer 8, extra JavaScript is needed.
 
 - The new layout elements include:
   * Header & Footer
