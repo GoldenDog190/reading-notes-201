@@ -26,7 +26,7 @@
 - Tags: contain a left-angle bracket, a character in the middle, and a right-angle bracket on the end.
 - Attributes: provide additional information about the contents of the element, and appear in the opening tag of the element. Made up of 2 parts: a name and a value, seperated by an equals sign. 
 - HTML Structure: contains at the very least the body, head, and title.
-  * Body Element (<body>): everything between this element is shown inside the main browser window.
+  * Body Element: everything between this element is shown inside the main browser window.
   * Head Element: it is placed before the body element, contains the information about the page, and cannot be see by the viewer of the site.
   * Title Element: this element is placed between the opening and closing head tags, and anything written between the <title> tags will appear in the title or tab bar at the top of the broswer window.
 
@@ -39,13 +39,33 @@
 3. HTML5 work in progress
 
 **DOCTYPES**
-> *DOCTYPES* tell browsers which version of HTML you are using, and are put at the very top of your HTML structure.
+> *DOCTYPES* tell browsers which version of HTML you are using, and are put at the very top of your HTML structure. 
+  * Put an left-angle bracket, right-angle bracket, and put the version of HTML you are using inside of the brackets: !DOCTYPE html
 
 **Comments in HTML**
  - You should always put comments in your code, so that you and other people will know what code you are working on and can come back to it, as well as what that code does and what you are trying to do with it, so it can be debugged later. 
-  * For comments put an opening bracket, closing bracket, and put this inside of the brackets: !-- comment in here --
+  * For comments put an left-angle bracket, right-angle bracket, and put this inside of the brackets: !-- comment in here --
 
 **ID Attribute**
+- 
+
+**Class Attribute**
+- 
+
+**Grouping Text & Elemnets in a Block**
+- 
+
+**Grouping Text & Elements Inline**
+- 
+
+**iFrames**
+- 
+
+**Information about your Pages**
+- 
+
+**Escape Characters**
+- 
 
 **Block Elements** 
 - elements that will always appear to start on a new line in the browser of the window
@@ -55,13 +75,21 @@
 
 ## HTML Chapter 17 "HTML5 Layout" Notes:
 
-**HTML5 Layout**
-- New Layout elements come with it. 
-- Examples:
-1. header
-2. footer
-3. nav
-4. articles
+**HTML5 Layout Elements**
+
+> New HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure. Also, provides clearer code, and help older browsers to understand the new code elements.
+
+- The new layout elements include:
+  * Header & Footer
+  * Navigation
+  * Articles
+  * Asides
+  * Sections
+  * Heading Groups
+  * Figures
+  * Sectioning Elements
+  * Linking around block-level elements
+  * Helping older browsers understand
 
 ## HTML Chapter 18 "Process & Design":
 
