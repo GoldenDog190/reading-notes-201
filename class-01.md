@@ -106,7 +106,7 @@
 
 ## HTML Chapter 18 "Process & Design":
 **Process:**
-- Questions to ask yourself as you build your website**
+- Questions to ask yourself as you build your website:
   * *Who is the site for?*
   * *Why people visit your website?*
   * *What your visitors are trying to achieve?*
