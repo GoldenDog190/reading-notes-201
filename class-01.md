@@ -105,10 +105,25 @@
   * Helping older browsers understand
 
 ## HTML Chapter 18 "Process & Design":
-
-**Process**
+**Process:**
+- Questions to ask yourself as you build your website**
+  * *Who is the site for?*
+  * *Why people visit your website?*
+  * *What your visitors are trying to achieve?*
+  * *What information your visitors need?*
+  * *How often people will visit your site?*
+- Site Maps: 
+- Wireframe:
 
 **Design**
+- Getting message across using design:
+  * 
+- Visual Hierarchy:
+  * 
+- Grouping & Similarity:
+  * 
+- Designing Navigation: 
+  * 
 
 ## JavaScript (JS) Introduction & Chapter 1 "The ABC of Programmimg":
 
