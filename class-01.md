@@ -10,7 +10,7 @@
 - Screen Readers - programs that read out all contents of a computer screen to a user.
 
 **How Websites are Created**
-- The HTML & CSS languages are used create websites.
+- The HTML & CSS languages are used to create websites.
 
 **How the Web Works**
 1. First you connect to the web via an Internet Service Provider (ISP). Then you put a web address into the browser to visit the site.
@@ -20,10 +20,18 @@
 
 **HTML**
 > *Hypertext Markup Language (HTML)*
-> is a text document that describes the structure of pages, uses elements to describe the structure of pages, uses tags, and attributes tell more about elements.
-- HTML Structure:
-- Needs to contain a body, head, and title
-- opening tags and closing tags are placed around an attribute
+> is a text document that describes the structure of the web page, & is made up of character that are inside angled brackets, which are called elements. 
+- HTML Elements: made up of two tags - opening tag and closing tag with the information you want to convay inbetween the opening tag and closing tag. 
+  * Example: <p> information you want to put in. </p>
+- HTML uses elements to describe the structure of pages.
+- Tags: contain a left-angle bracket, a character in the middle, and a right-angle bracket on the end.
+  * Example: <p> 
+- Attributes: provide additional information about the contents of the element, and appear in the opening tag of the element. Made up of 2 parts: a name and a value, seperated by an equals sign. 
+  * Example: <p lang="en-us">Write in English</p>
+- HTML Structure: contains at the very least the body, head, and title.
+  * <body> Element: everything inside this element is shown inside the main browser window.
+  * <head> Element: it is placed before the <body> element, contains the information about the page, and cannot be see by the viewer of the site.
+  * <title> Element: this element is placed between the opening and closing <head> tags, and anything written between the <title> tags will appear in the title or tab bar at the top of the broswer window.
 
 ## HTML Chapter 8 "Extra Markup":
 
@@ -50,13 +58,7 @@
 
 **Design**
 
-# Duckett - JavaScript & JQuery Notes
-
-## JavaScript (JS) Introduction
-
-**JS**
-
-## JS Chapter 1 "The ABC of Programmimg":
+## JavaScript (JS) Introduction & Chapter 1 "The ABC of Programmimg":
 
 **JS**
 
