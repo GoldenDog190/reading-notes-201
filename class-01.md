@@ -1,9 +1,28 @@
-# Ducket - HTML & CSS Notes
-## HTML Chaper 1 "Structure":
+# Ducket - HTML & CSS / JavaScript & JQuery Notes
+
+## HTML Introduction & Chapter 1 "Structure":
+
+**How People Access the Web**
+- Web Browsers: people access websites using software called web browsers.
+   * Examples: Firefox, Internet Explorer, Chrome, etc.
+- Web Servers: a special computer that hosts the websites that you look up on your browser.
+- Devices: you get access to the web using your desktop computer, laptop computer, mobile phones, etc.
+- Screen Readers - programs that read out all contents of a computer screen to a user.
+
+**How Websites are Created**
+- The HTML & CSS languages are used create websites.
+
+**How the Web Works**
+1. First you connect to the web via an Internet Service Provider (ISP). Then you put a web address into the browser to visit the site.
+2. Next your computer contacts the Domain Name System (DNS) servers.
+3. The DNS server will send a unique number back to your computer that allows your browser to contact the web server that hosts the website you requested.
+4. Finally, the web server then sends the page you requested back to your web browser.
 
 **HTML**
-> is a text document that describes the structure of pages, uses elements to describe the structure of pages,uses tags, and attributes tell more about elements.
-- Contains a body, head, and title
+> *Hypertext Markup Language (HTML)*
+> is a text document that describes the structure of pages, uses elements to describe the structure of pages, uses tags, and attributes tell more about elements.
+- HTML Structure:
+- Needs to contain a body, head, and title
 - opening tags and closing tags are placed around an attribute
 
 ## HTML Chapter 8 "Extra Markup":
