@@ -113,6 +113,7 @@
   * *What information your visitors need?*
   * *How often people will visit your site?*
 - Site Maps: 
+
 - Wireframe:
 
 **Design**
@@ -125,7 +126,15 @@
 - Designing Navigation: 
   * 
 
-## JavaScript (JS) Introduction & Chapter 1 "The ABC of Programmimg":
+## JavaScript Introduction & Chapter 1 "The ABC of Programmimg":
 
-**JS**
-
+**JavaScript (JS)**
+> *Javascript* : A series of instructions that a computer can follow one by one. Each instruction is known as a statement, which ends with a semicolon.
+- HTML, CSS, and Javascript fit together, and each language forms a seperate layer with a different layer.
+- HTML - content layer
+- CSS - presentation layer
+- Javascript - behavior layer
+- These 3 layers form what is called a enhancement.
+- Javascript is written in plain text.
+- Data is stored in variables.
+- Data types: humeric, string, and boonlean
