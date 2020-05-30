@@ -112,15 +112,20 @@
   * *What your visitors are trying to achieve?*
   * *What information your visitors need?*
   * *How often people will visit your site?*
-- Site Maps: 
 
-- Wireframe:
+- Site Map: a diagram of the pages that will be used to structure the site.
+
+- Wireframe: a simple sketch of the key information that needs to go on each page of the site.
 
 **Design**
 - Getting message across using design:
-  * 
-- Visual Hierarchy:
-  * 
+  * Content - web pages use the content to communicate
+  * Prioritizing - make parts of the page look distinct from surrounding content to draw attention to those parts of the page
+  * Organizing - group together related content into blocks/ chunks to make the page look simpler and eaiser to understand
+
+- Visual Hierarchy: the order in which your eyes perceive what they see
+  * create a visual hierarchy by contrasting size, color, style, and images to get key message across and make things easier to find.
+  
 - Grouping & Similarity:
   * 
 - Designing Navigation: 
