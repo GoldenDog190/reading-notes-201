@@ -97,18 +97,34 @@
 ## JavaScript Chapter 2 "Basic JavaScript Instructions":
 
 **Basic Javascript Instructions**
-- Expressions: evaluates into a single value
-1. Expressions that assign a value to a variable. Example: var color = 'beige'; --> The value of color is now beige.
-2. Expressions that use 2 or more values to return a single value. Example: var area = 3 * 2; --> The value of the area is now 6.
-- Operators
-1. Assignment Operators
-2. Comparison Operators
-3. Logical Operators
-4. Arithmetic Operators
-5. String Operators
+- *Statements*
+  * 
+- *Comments*
+  * 
+- *Variable*
+  * 
+    - How to declare them:
+    - How to assign them a value:
+    - Data Types: 
+    - Using them to store a number:
+    - Using them to store a string:
+    - Using quotes inside a string:
+    - Using them to store a boolean: 
+    - Shorthand for creating variables:
+    - Changing the value of a variable:
+    - Rules for naming variables: 
 
-- Arithmetic Operators: mathematical operators, which you can use numbers
-- String Operators: the + symbol. This is used to join strings on either side. Jioning 2 or more string to create one new string is called concatenation.
+- *Arrays*
+  * Creating an array
+  * Values in arrays:
+  * Accessing & changing values:
+
+- *Expressions* evaluate into a single value and rely on operators to calculate a value.
+  *  Expressions can just assign a value to a variable or use 2 or more values to return a single value.
+
+- *Operators* allow programers to create a single value from one or more values.
+ * Arithmetic Operators: mathematical operators, which you can use numbers
+ * String Operators: the + symbol. This is used to join strings on either side. Joining 2 or more string to create one new string is called concatenation.
 
 ## JavaScript Chapter 4 "Decisions and Loops" *only up to section on switch statements*: 
 
