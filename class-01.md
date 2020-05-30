@@ -34,9 +34,9 @@
 
 **Evolution of HTML**
 * There are several different versions of HTML:
-1. HTML 4 released in 1997
-2. XHTML 1.0 released in 2000
-3. HTML5 work in progress
+  1. HTML 4 released in 1997
+  2. XHTML 1.0 released in 2000
+  3. HTML5 work in progress
 
 **DOCTYPES**
 > *DOCTYPES* tell browsers which version of HTML you are using, and are put at the very top of your HTML structure. 
@@ -117,19 +117,22 @@
 
 - Wireframe: a simple sketch of the key information that needs to go on each page of the site.
 
-**Design**
+**Design:**
 - Getting message across using design:
   * Content - web pages use the content to communicate
   * Prioritizing - make parts of the page look distinct from surrounding content to draw attention to those parts of the page
   * Organizing - group together related content into blocks/ chunks to make the page look simpler and eaiser to understand
 
 - Visual Hierarchy: the order in which your eyes perceive what they see
-  * create a visual hierarchy by contrasting size, color, style, and images to get key message across and make things easier to find.
-  
+  * Create a visual hierarchy by contrasting size, color, style, and using images to get key message across and make things easier to find.
+
 - Grouping & Similarity:
-  * 
+  * Organize visual elements and information into groups by proximity, closer, continuance, white space, color, and borders. Also, use a consistant style and headings to seperate topics.
+
 - Designing Navigation: 
-  * 
+  * Site navigation helps people find where they want to go on the site, what your site is about, and how it is organized.
+  * Principles of navigation: be concise, clear, selective, provides content, interactive, and is consistant. 
+  * Large sites might have primary, secondary, and teriary navigation
 
 ## JavaScript Introduction & Chapter 1 "The ABC of Programmimg":
 
