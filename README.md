@@ -5,7 +5,7 @@
 ## ***Table of Contents***
 
 * [Class O1](class-01.md)
-* [Class 02]()
+* [Class 02](class-02.md)
 * [Class 03]()
 * [Class 04]()
 * [Class 05]()
