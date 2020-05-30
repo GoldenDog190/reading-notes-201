@@ -159,13 +159,16 @@
 - Web browsers are programs built using objects.
 - The document object represents an HTML page.
 - How a browser sees a web page: 
- *
+ * the browser receives an HTML page
+ * it creates a model of the page and stores it in memory
+ * it shows the page on screen using a rendering engine
 
 **Writing a script for a webpage:**
 - HTML, CSS, and Javascript: these 3 fit together, and each language forms a seperate layer with a different layer. These 3 layers form what is called progressive enhancement.
   * HTML - content layer
   * CSS - presentation layer
   * Javascript - behavior layer
-- Javascript is written in plain text.
-- Data is stored in variables.
-- Data types: humeric, string, and boonlean
+- JS is written in plain text, just like HTML and CSS.
+- Use the HTML script element to link a JS file to the HTML.
+- JS uses objects and methods to call a mothod of an object.
+- JS runs where it is found in the HTML, but doesn't change the HTML structure.
