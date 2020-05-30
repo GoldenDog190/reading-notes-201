@@ -153,18 +153,19 @@
 **Computers create models of the world using data**
 - Object: each physical thing is represented as an object. Each object can have its own properties, events, and methods, which create a working model of that object.
 - Properties: each property has a name and value, which tells you something about each object.
-- Events: 
-- Methods:
-- Putting it all together:
+- Events: interactions with objects, and can change the values of properties in these objects. 
+- Methods: how things interact with an object, and they can retrieve or update the values of an object's properties.
+- Putting it all together: the events, methods, and properties of an object all relate to each other. Events trigger methods, and methods retrieve or update an objects properties
 - Web browsers are programs built using objects.
 - The document object represents an HTML page.
-- How a browser
+- How a browser sees a web page: 
+ *
 
-**HTML, CSS, and Javascript overview:** these 3 fit together, and each language forms a seperate layer with a different layer.
-- HTML - content layer
-- CSS - presentation layer
-- Javascript - behavior layer
-- These 3 layers form what is called a enhancement.
+**Writing a script for a webpage:**
+- HTML, CSS, and Javascript: these 3 fit together, and each language forms a seperate layer with a different layer. These 3 layers form what is called progressive enhancement.
+  * HTML - content layer
+  * CSS - presentation layer
+  * Javascript - behavior layer
 - Javascript is written in plain text.
 - Data is stored in variables.
 - Data types: humeric, string, and boonlean
