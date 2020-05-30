@@ -49,11 +49,50 @@
 ## CSS Chapter 10 "Introducing CSS":
 
 **CSS**
- > *Cascading Style Sheet (CSS)*
- - CSS allows you to create rules that specify how content of element should appear
- - With CSS imagine that there is an invisible box around every HTML element.
- - CSS allows you to create rules that controlthe way each box is presented.
- - CSS properties affect how elements are displayed.
+ > *Cascading Style Sheet (CSS):* CSS allows you to create rules that specify how content of element should appear. Also, with CSS imagine that there is an invisible box around every HTML element, and that CSS allows you to create rules that control the way each box is presented.
+
+ **CSS associates style rules with HTML elements:**
+ - CSS works by associating rules with HTML elements, and these rule govern how the content of specified elements should be displayed. A CSS rule contains a selector and declaration.
+   * Selector: indicates which element the rule applies to
+   * Declaration: indicates how the elements refered to in the selector should be styled
+
+ **CSS properties affect how elements are displayed:**
+ - CSS declarations sit inside curly brackets and made up of two parts: a property and a value.
+   * Properties: indicate the aspects of the element you want to change
+   * Value: specifies the setting you want to use for the chosen properties
+
+ **Using External CSS**
+ - The link element is used in HTML document to tell the browser where to find CSS file used to style the page.
+
+ **Using Internal CSS**
+ - You can also use the style element, which sits within the head of the page, to tell the browser that the CSS is placed within the HTML structure.
+
+ **CSS Selectors**
+ - Universal Selector
+ - Type Selector
+ - Class Selector
+ - ID Selector
+ - Child Selector
+ - Descendent Selector
+ - Adjacent Sibling Selector
+ - General Sibling Selector
+
+**How CSS Rules Cascades**
+- If 2 selectors are identical, the latter of the 2 will take precedence
+- If one selector is more specific that the others, the more specific rule will take precedence.
+- You can add !important after any property value to indicate that it is more important than the others.
+
+**Inheritance**
+- Properties can inherit values from their parent element, and they are called child properties.
+
+**Why Use External Style Sheets?**
+- Makes the HTML code easier to read.
+- Easier to make changes to the CSS.
+- Good practice to have the contents of the site seperate from the rules that determine how it will appear.
+
+**Different Versions of CSS & Browser Quirks**
+- Different versions of CSS include: CSS1 from 1996, CSS2 from 1998, and CSS3, which is ongoing.
+- Browser quirks, also known as CSS bug shows up when a CSS property doesn't display as expected. 
 
 ## JavaScript Chapter 2 "Basic JavaScript Instructions":
 
