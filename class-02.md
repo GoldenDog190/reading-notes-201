@@ -161,3 +161,14 @@
 
 # Additional Reading - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) 
 
+**How to Write a Git Commit Message**
+- A well crafted Git commit message is a way to communicate context about changes made, tell you why they were made, and should be as concise and consistant as possible.  
+- A commit log should be defined by three conventions: style, content, and metadata
+- 7 Rules of a Git commit message:
+  1. Separate subject from body with a blank line
+  2. Limit subject line to 50 characters
+  3. Capitalize subject line
+  4. Don't end subject line with a period
+  5. Use imperative mood in the subject line
+  6. Wrap body at 72 characters
+  7. Use the body to explain what and why vs how
