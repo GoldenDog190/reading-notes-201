@@ -33,15 +33,18 @@
   * Strong has an opening and closing tag with the content that you want to put strong importance on inbetween. It is created using an left-angle bracket, right-angle bracket, and put this inside of the brackets: strong.
   * Emphasis has an opening and closing tag with the content that you want to put emphasis on. Created using an left-angle bracket, right-angle bracket, and put this inside of the brackets: em
 - *Quotations*
-  * Uses two different elements: blockquote for larger quotes like a paragraph and q for shorter quotes that sit within a paragraph. Both are made into opening and closing tags with the quote inbetween.
+  * Uses two different elements: blockquote for larger quotes like a paragraph and q for shorter quotes that sit within a paragraph. Both are made into opening and closing tags with the quote inbetween the tags.
 - *Abbreviations & Acronyms* 
-  * 
+  * If you want to use abbreviation or acronyms use the abbr element, which is made into opening and closing tags with the abbreviation or acronym inbetween the tags.
 - *Citations & Definitions*
-  * 
+  * For citations use the cite element, which is made into opening and closing tags with the citation for the book or film inbetween the tags.
+  * For definitions use the dfn element, which is made into opening and closing tags with the definition inbetween the tags.
 - *Author Details*
-  * 
+  * Use the address element to contain the contact details for the author of the page. Make the address element into opening and closing tags with the conatct details inbetween the tags.
 - *Changes to Content*
-  * 
+  * Use the ins element to show content that has been inserted into a document between the opening and closing tags.
+  * Use the del element to show text that has been deleted between the opening and closing tags.
+  * Use the s element to visibly put a line through the content between the opening and closing tags.
 
 ## CSS Chapter 10 "Introducing CSS":
 
