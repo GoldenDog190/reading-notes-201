@@ -23,7 +23,7 @@
 > is a text document that describes the structure of the web page, & is made up of character that are inside angled brackets, which are called elements. 
 - HTML Elements: made up of two tags - opening tag and closing tag with the information you want to convay inbetween the opening tag and closing tag. 
 - HTML uses elements to describe the structure of pages.
-- Tags: contain a left-angle bracket, a character in the middle, and a right-angle bracket on the end.
+- Tags: Opening tag contain a left-angle bracket, a character in the middle, and a right-angle bracket on the end. Closing tags contain a left-angle bracket, /, a character in the middle, and a right-angle bracket.
 - Attributes: provide additional information about the contents of the element, and appear in the opening tag of the element. Made up of 2 parts: a name and a value, seperated by an equals sign. 
 - HTML Structure: contains at the very least the body, head, and title.
   * Body Element: everything between this element is shown inside the main browser window.

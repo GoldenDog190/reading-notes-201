@@ -2,32 +2,38 @@
 
 ## HTML Chapter 2 "Text":
 **Markups**
-> Mark ups are the tags that you add to the content of the page
+> *Markups* are the tags that you add to the content of the page
 - Structural Markup: the elments you can use to describe both headings and paragraphs
 - Semantic markup: provides extra information, such as wehere emphasis is placed in a sentence, quotations, meaning of acrroyms, etc.
 
 **Structural Markups**
 - *Headings*
-  * 
+  * Used to make the headings for the page. HTML has six levels of headings. H1 for main heading, and h2 - h6 are subheadings.
+  * Has an opening and closing tag with the heading inbetween them. Make the opening tag using an left-angle bracket, right-angle bracket, and put this inside of the brackets: h1, h2, h3, h4, h5, or h6.
 - *Paragraphs*
-  * 
+  * Used to make paragraphs on the page.
+  * Has an opening and closing tag with the paragraph inbetween them. Make the opening tag using an left-angle bracket, right-angle bracket, and put this inside of the brackets: p
 - *Bold & Italic*
-  *  
+  * Has an opening and closing tag with what words you want to appear bold or italic inbetween them. Make the opening tag using an left-angle bracket, right-angle bracket, and put this inside of the brackets: b for bold or i for italic.
 - *Superscript & Subscript*
-  * 
+  * Superscript has an opening and closing tag with the characters that should be superscript, such as dates, inbetween them. Make the opening tag using an left-angle bracket, right-angle bracket, and put this inside of the brackets: sup
+  * Subscript has an opening and closing tag with the characters that should be subscripted, such as in footnotes or chemical formulas, inbetween them. Make the opening tag using an left-angle bracket, right-angle bracket, and put this inside of the brackets: sub
 - *White Space*
-  * 
+  * White space is used to make code more easy to read, and put some extra space inbetween code.
 - *Line Breaks & Horizantal Rules*
-  * 
+  * Line break have an left-angle bracket, br, a space inbetween the br and /, /, and an right-angle bracket. This adds a breakline inside the middle of the paragraph.
+  * Horizantal rules have an left-angle bracket, hr, a space inbetween the br and /, /, and an right-angle bracket. This is used to create a break between themes.
 
 **Visual Editors & Their Code Views**
-- 
+- *Visual Editors*: resemble word processors, and allows you to control the presentation of text.
+- *Code Views*: show you yht code created by the visual editor, so you can manually edit it or enter new code.
 
 **Semantic Markups**
 - *Strong & Emphasis*
-  * 
+  * Strong has an opening and closing tag with the content that you want to put strong importance on inbetween. It is created using an left-angle bracket, right-angle bracket, and put this inside of the brackets: strong.
+  * Emphasis has an opening and closing tag with the content that you want to put emphasis on. Created using an left-angle bracket, right-angle bracket, and put this inside of the brackets: em
 - *Quotations*
-  * 
+  * Uses two different elements: blockquote for larger quotes like a paragraph and q for shorter quotes that sit within a paragraph. Both are made into opening and closing tags with the quote inbetween.
 - *Abbreviations & Acronyms* 
   * 
 - *Citations & Definitions*
@@ -48,6 +54,20 @@
 
 ## JavaScript Chapter 2 "Basic JavaScript Instructions":
 
+**Basic Javascript Instructions**
+- Expressions: evaluates into a single value
+1. Expressions that assign a value to a variable. Example: var color = 'beige'; --> The value of color is now beige.
+2. Expressions that use 2 or more values to return a single value. Example: var area = 3 * 2; --> The value of the area is now 6.
+- Operators
+1. Assignment Operators
+2. Comparison Operators
+3. Logical Operators
+4. Arithmetic Operators
+5. String Operators
+
+- Arithmetic Operators: mathematical operators, which you can use numbers
+- String Operators: the + symbol. This is used to join strings on either side. Jioning 2 or more string to create one new string is called concatenation.
+
 ## JavaScript Chapter 4 "Decisions and Loops" *only up to section on switch statements*: 
 
 **Operators**
@@ -63,7 +83,7 @@
    3. Logical Not: !
 
 **Loops**
-> *Loops* check a condition.
+> *Loops* - check a condition.
 - If it returns true, a code block will run. Condition will be checked again and still returns true, code block will run again. Will repeat until condition returns false.
 - 3 Types of Loops
  1. For
