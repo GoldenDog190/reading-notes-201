@@ -137,8 +137,30 @@
 ## JavaScript Introduction & Chapter 1 "The ABC of Programmimg":
 
 **JavaScript (JS)**
-> *Javascript* : A series of instructions that a computer can follow one by one. Each instruction is known as a statement, which ends with a semicolon.
-- HTML, CSS, and Javascript fit together, and each language forms a seperate layer with a different layer.
+> *Javascript* : A series of instructions that a computer can follow one by one. Each instruction is known as a statement, which ends with a semicolon. Allows you to make web pages more interactive, and encompasses many of the tradition rules of programming.
+
+**How JS makes web pages more interactive**
+- Access content
+- Modify content
+- Program rules
+- React to events
+
+**Script**
+> A *Script* is a series of instructions that a computer follows step-by-step to achieve a goal.
+- To write a script: state your goal, and then list the tasks needed to complete that goal in order to achieve it. Each task can be broken down intp a sequence of steps. Finally, code each step. 
+- Keep in mind that a computer solves tasks in a different way than you do, and it will only do things as you tell it to, so make sure that the code is in the correct order to achieve your goal.
+
+**Computers create models of the world using data**
+- Object: each physical thing is represented as an object. Each object can have its own properties, events, and methods, which create a working model of that object.
+- Properties: each property has a name and value, which tells you something about each object.
+- Events: 
+- Methods:
+- Putting it all together:
+- Web browsers are programs built using objects.
+- The document object represents an HTML page.
+- How a browser
+
+**HTML, CSS, and Javascript overview:** these 3 fit together, and each language forms a seperate layer with a different layer.
 - HTML - content layer
 - CSS - presentation layer
 - Javascript - behavior layer
