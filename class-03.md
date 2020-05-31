@@ -7,45 +7,55 @@
 - *Ordered Lists*
   * Are lists that are numbered. Is created with ol element with the actual numbered part of the list inbetween the opening and closing ol tags. Each item of the numbered list is placed between an opening li tag and closing li tag.
 - *Unordered Lists*
-  * Lists that use bullet points. Created using opening and closing ul element tag with each item listed with opening and closing li tags inbetween the ul tags.
+  * Lists that use bullet points. Created using opening and closing ul elements with each item listed with opening and closing li tags inbetween the ul tags.
 - *Definition Lists*
-  * Made up of a set of terms along the definitions for each of those terms. The list is made with opening and closing dl element tags.Inside the dl elements you use dt element to contain the term being defined, and dd element for containing the definition.
+  * Made up of a set of terms along the definitions for each of those terms. The list is made with opening and closing dl elements.Inside the dl elements you use dt element to contain the term being defined, and dd element for containing the definition.
 - *Nested Lists*
   * A second list within the li element to create a sublist or nested list.
 
 ## CSS Chaper 13 "Boxes":
 **Box Dimensions**
-- 
-- *Limiting width*: 
+- Control the dimensions of your boxes, create borders around boxes, set margins and padding for boxes, & show & hide boxes.
+- A box is sized just big enough to hold its contents. you can set your own dimensions for a box using width and height.
+- *Limiting width* using: 
   * min-width
   * max-width
-- *Limiting height*:
+- *Limiting height* using:
   * min-height
   * max-height
 - *Overflowing content*
+  * overflow - tells browser what to do if content within box is larger than the box itself
+  * hidden - to hide extra content
+  * scroll - to add a scroll bar
 
 **Border, Margin, & Padding**
-- *Border*: 
+- *Border*: every box has a border, and it seperates the edge of one box from another
   * border-width
   * border-style
   * border-color
-  * Shorthand border
-- *Margin*:
+  * shorthand: border
+- *Margin*: sits outside the edge of the border
   * margin
-- *Padding*:
+- *Padding*: the space between the border of a box & any content contianed within it
   * padding
 
 **White Space & Verticle Margin**
-- 
+- The padding and margin properties are helpful in adding space between various items on the page.
 
 **Centering Content**
-- 
+- To center a box set the left-margin and right-margin to auto, which will make the browser put an equal gap on each side of the box, and this will center the box.
 
 **Change Inline/Block**
-- 
+- *display* property: 
+  * inline
+  * block
+  * inline-block
+  * none
 
 **Hiding Boxes**
-- 
+- *visibility* property:
+  * hidden
+  * visible
 
 **CSS3**
 - *Border Image*: border-image
