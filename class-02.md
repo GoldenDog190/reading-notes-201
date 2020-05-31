@@ -138,11 +138,12 @@
 
 ## JavaScript Chapter 4 "Decisions and Loops" *only up to section on switch statements*: 
 **Decision Making**
-- 
+- Flowcharts can help you make decisions about which lines of code should be ran next.
+- 2 components to a decision: an expression is evaluated, which returns a value, and a conditional statement says what to do in a given situation
 
 **Evaluating Conditions & Conditional Statements**
-- 
-- 
+- Evaluating conditions: to make a decision your code checks the current status of the script, which is commonly done by comparing two values using a comparison operator that returns a value of true or false.
+- Conditional statement is based on a concept of if/then/else
 
 **Operators**
 - *Comparision Operators*
@@ -162,10 +163,10 @@
    3. Logical Not: !
 
 **If Statements**
-- 
+- The if statement evaluates a condition. If condition evaluates to true, any statements in subsequent code block are executed. If conditions are false, the code block will not run.
 
 **If...Else Statements**
-- 
+- The if...else statement checks a condition. If it is true, the first code block is executed. If resolves false the second code block is run instead.
 
 # Additional Reading - [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/) 
 
