@@ -1,7 +1,6 @@
 # Ducket - HTML & CSS / JavaScript & JQuery Notes
 
 ## HTML Introduction & Chapter 1 "Structure":
-
 **How People Access the Web**
 - Web Browsers: people access websites using software called web browsers.
    * Examples: Firefox, Internet Explorer, Chrome, etc.
