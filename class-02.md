@@ -98,28 +98,36 @@
 
 **Basic Javascript Instructions**
 - *Statements*
-  * 
+  * A *script* is a series of instructions that a computer can follow one by one, an each individual step is known as a statement. 
+  - Statements end with a semicolon, and are case sensitive.
+  - Statements are instructions, each starts on a new line, and can be organized into code blocks.
 
 - *Comments*
-  * 
+  * Should be written to expain what your code does. Can use multi-line comments or single line comments.
 
 - *Variable*
-  * 
-    - How to declare them:
-    - How to assign them a value:
-    - Data Types: 
-    - Using them to store a number:
-    - Using them to store a string:
-    - Using quotes inside a string:
-    - Using them to store a boolean: 
-    - Shorthand for creating variables:
-    - Changing the value of a variable:
+  * A script will have to store bits of information, and this can be stored in *variables*.
+    - How to declare them: create the variable and giving it a name
+    - How to assign them a value: once you have made a variable, you can tell it what information you want to store for you.
+    - Data Types: Numeric Data Type, String Data Type, and Boolean Data Type
+    - Using them to store a number: once a value has been assigned to a variable, you can use the variable name to represent that value.
+    - Using them to store a string: 2 variables are declared, and they are used to hold strings.
+    - Using quotes inside a string: you will sometimes want to use quotation marks within a string.
+    - Using them to store a boolean: boolean variable can only be true or false, and booleans are used when your code can take more than one path.
+    - Shorthand for creating variables: shorthand can be used to lessen the amount of typing, but it can also make your code harder to follow.
+    - Changing the value of a variable: once you have assigned a value to a variable, you can then change what is stored in the same script.
     - Rules for naming variables: 
+      * The name must begin with a letter, $, or underscore
+      * The name can contain letters, numbers, $, or underscore
+      * You cannot use keywords or reserved words
+      * All variables are case sensitive
+      * Use a name that describes the kind of information that the variable stores
+      * If variable name is made up of more than one word, use a capital letter for the first letter of every word after the first word. 
 
-- *Arrays*
-  * Creating an array
-  * Values in arrays:
-  * Accessing & changing values:
+- *Arrays*: a special type of variable that stores a list of values
+  * Creating an array is called an array variable.
+  * Values in arrays: are accessed as if they are in a numbered list, which starts with 0, not 1
+  * Accessing & changing values: to access a value from an array, after the array name you specify the index number for that value inside brackets. You cna change the value of an item an array by selecting it and assigning it a new value.
 
 - *Expressions* evaluate into a single value and rely on operators to calculate a value.
   *  Expressions can just assign a value to a variable or use 2 or more values to return a single value.
