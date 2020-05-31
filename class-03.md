@@ -46,21 +46,22 @@
 - To center a box set the left-margin and right-margin to auto, which will make the browser put an equal gap on each side of the box, and this will center the box.
 
 **Change Inline/Block**
-- *display* property: 
+- *display* property: allows you to turn an inline element into a block-level elment or vise versa, and can be sued to hide an element from the page. The values this property can take are:
   * inline
   * block
   * inline-block
   * none
 
 **Hiding Boxes**
-- *visibility* property:
+- *visibility* property: allows you to hide boxes from users, but leaves space where the lelment would have been. Can take on these two values:
   * hidden
   * visible
 
 **CSS3**
-- *Border Image*: border-image
-- *Box Shadow*: box-shadow
-- *Rounded Corners & Elliptical Shapes*
+- *Border Image*: applies an image to a border of any box, and slices the background image into 9 pieces 
+  * border-image 
+- *Box Shadow*: box-shadow property allows you to add a drop shadow aound a box.
+- *Rounded Corners & Elliptical Shapes*: use border-radius to round corners and elliptical shapes
   * border-radius
 
 ## JS Chapter 4 "Decisions and Loops" *from switch statements*:
