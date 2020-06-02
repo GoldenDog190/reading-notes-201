@@ -54,21 +54,43 @@
 
 ## JS Chapter 3 "Functions, Methods, & Objects" (first part pp 86-99 only): 
 **Function**
-> *Functions*: 
-- Declaring functions
-- Calling functions
-- Getting a single value out of a function
-- getting multiple values out of a function
+> *Functions*: let you group a series of statements together to perform a specific task. You can reuse the function in different parts of the script to repeat the same task.
+- Declaring functions: give it a name and then write the statement needed to achieve its task inside the curly braces.
+  * sometimes functions need specific information to perform its task, which is when you will declare the function it gives you a *parameter*. Parameters act like variables.  
+- Calling functions: executing all of the statements between the curly braces with one line of code
+  * when you call a function that has parameters, specify the values it should use in the parentheses that follow its name. The values/ variables are called *arguments*.
+- A single value or multiple values can be gotten out of a function.
 
 **Anonymous Functions & Function Expressions**
-- *Anonymous functions*
-- *Function expressions*
-- Immediately involked function expression
+- *Anonymous functions*: a function with no name
+- *Function expressions*: if a function is placed where it is expected to see an expression, then it gets treated as an expression.
+- Immediately involked function expression (IIFE): these functions are not given a name, instead are executed once as the interpreter comes across them. 
 
 **Variable Scope**
-- 
+- *Variable scope*: the location where you declare a variable will affect where it can be used within your code. If declared within a function, it can only be used within that function.
+  * *Local variables*: created inside of a function, and can only be used in that function
+  * *Global variables*: created outside of the function, and can be used anywhere within the script.
 
 **How Memory & Variables Work**
-- 
+- Global variables use more memeory. 
+- Local variables are only remembered while the function is being executed.
+- Name collisions
 
 ## Extra Reading Article ["6 Reasons for Pair Programming"](https://www.codefellows.org/blog/6-reasons-for-pair-programming/): 
+
+**Pair Programming**
+- *Pair programming* involves two roles: the driver and navigator
+  * Driver - is the programmer who is typing, and manages the text editor,switching files, version control, and writing code.
+  * Navigator - thinks about the big picture, what comes next, how an algorithm might be converted into code, and scans for typos or bugs. Also, uses their computer as a second screen to look up solutions and documentations.
+- **Four skills programmers use:** 
+  * listening
+  * Speaking 
+  * Reading
+  * Writing
+- **Why pair program?**
+  1. Greater efficiency
+  2. Engaged collaboration
+  3. Learning from fellow students
+  4. Social skills
+  5. Job interview readiness
+  6. Work enviroment readiness
