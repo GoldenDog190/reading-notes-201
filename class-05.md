@@ -125,7 +125,7 @@
   * capitalize
 - underline & strike
   * text-decoration: underline or strike
-- Leadding - line-height: used for the vertical space between lines of text
+- Leading - line-height: used for the vertical space between lines of text
 - etc...
 
 **Attribute Selectors:** allow you to create rules that apply to elementsthat have an attribute with a specific value. 
