@@ -2,51 +2,59 @@
 
 ## HTML Chapter 4 "Links":
 **Links**
-> *Links*:
-- Writing links:
-- Linking to other sites
-- Links to other pages on same site:
-- Directory Structure:
-- Relative URLS:
-- Email links:
-- Opening links in a new window
-- Links to specific parts of page
-- Links to specific part of another page
+> *Links*: allow you to move from one web page to another
+- Writing links: links are created using (a) element with opening tag, which also will have the href attribute with the url of the page you are linking to, and closing tags, and the specific page information on the URL you want to link inbetween.
+- Linking to other sites: opening and closing bracket, a href = "url" in between them, and a closing a element tag
+- Links to other pages on same site: don't have to specify the domain name in the URL, instead can use a shorthand known as relative URL.
+- *Directory Structure*: for larger websites organize your code by placing the pages for each section of the site into a new folder/ directory.
+- *Relative URLS*: used when linking pages within your own website
+- Email links - have the opening element be: a href = "mailto:email url" 
+- To open links in a new window use the target attribute: a href-"url" target="_blank"
+- Links to specific parts of page - example: h1 id="#prologue"
+- Links to specific part of another page - example: a href="url/#prologue"
 
 ## HTML & CSS Chapter 15 "Layout":
 **Key concepts in Positioning Elements:**
-- Building Blocks
-- Containing Elements
+- *Building Blocks*: css treats each HTML element as if its in its own box, and this box will either be block-level box or inline box.
+  * Block-level elements: h1, p, ul, li
+  * Inline elements: img, b, i
+- *Containing Elements*: if one block-level element sits inside another block-level element, then the outer box is the contianing/ parent element.
 
 **Controlling the Position of Elements**
-- Normal Flow
-- Relative Positioning
-- Absolute Positioning
-- Fixed Positioning
-- Floating Elements
+- *Positioning Schemes*: allow you to control the layout of a page
+  * Normal Flow: position:static
+  * Relative Positioning: position:relative
+  * Absolute Positioning: position:absolute
+  * Fixed Positioning: position:fixed
+  * Floating Elements: float
+- Box offset property tells the browser how far from the top or bottom and left or right the box should be placed.
+- z-index property allows control over which box appears on top
 
 **Screen Sizes & Screen Resolutions**
-- Screen size
-- Screen resolutions
+- Screen size - your design needs to be able to work on a large range of different screen sizes
+- Screen resolutions - resolution refers to the number of dots a screen shows per inch
 
 **Page Sizes**
-- 
+- Due to screen sizes and screen resolutions varying so much, designers often try to create pages around 960-1000 pixels wide.
 
 **Fixed Width Layouts**
-- 
+- These designs don't change size as the user increases or decreases sizeof their browser window. Measurements are in pixels.
 
 **Liquid Layouts**
-- 
+- These designs stretch and contract as user increases or decreases the size of their browser window, and use percentages.
 
 **Layout Grids**
-- 
+- Designers use a grid structureto help position and organize items on a page.
+- Possible layouts: 960 pixels wide and a 12 column grid
 
-**CSS Framework**
-- 
+**CSS Frameworks**
+- CSS frameworks aim is to make life easier by providing code for common tasks, such as creating layout grids, styling forms, creating printer friendly version of pages, etc.
+- Advantages - save you from repeatedly writing code for the same tasks, and are well tested
+- Disadvantages - require you to use class names in the HTML code that only controls presentation of the page, and to satify a variety of needs CSS frameworks often contains more code than you need for a web page.
 
 ## JS Chapter 3 "Functions, Methods, & Objects" (first part pp 86-99 only): 
 **Function**
-> *Functions* 
+> *Functions*: 
 - Declaring functions
 - Calling functions
 - Getting a single value out of a function
