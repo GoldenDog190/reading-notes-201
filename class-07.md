@@ -51,35 +51,39 @@
   * Can combine arrays and objects to create complex data structures - arrays can store a series of objects and objects can hold arrays.
 
 **Built-in Objects**
-- Browsers come with a set of *built-in objects* that represent things like the browser window and the current web page shown in that window. Built-in objects act like a toolkit for creating interactive web pages. The toolkit has 3 compartments:
-  * browser object model
-  * document object model
-  * global javascript objects
+- Browsers come with a set of *built-in objects* that represent things like the browser window and the current web page shown in that window. Built-in objects act like a toolkit for creating interactive web pages.
 - *Object model* is a group of objects, each of which represent related things from the real world using data
 - 3 Groups of Builtin Objects:
-  * 
+  * *browser object model*: creates a model of the browser tab or window
+  * *document object model*: creates a model of the current web page
+  * *global javascript objects*: global objects don't form a single model, but instead form a group of individual objects that relate to different part of JS
 
-**Browser Object Model**
-- 
-
-**Windows Object**
-- 
+**Browser Object Model: the Window Object**
+- The *window object* represents the current browser window or tab, its the topmost object in the Browser Object Model, and contains other objects that tell you about the browser
 
 **Global Objects: String Objects**
-- 
+- whenever you have a value that is a string, you can use the properties and methods of the string object on that value.
+- each character in a string automatically given a number called *index number*, which always start at zero
 
-**Working with Strings**
-- 
+**Data Types**
+- *Simple/ primative data types*:
+  * string 
+  * number
+  * boolean
+  * undefined
+  * null
+- *Complex data type*
+  * object 
 
-**Number Objects**
-- 
+**Global Object: Number Objects**
+- whenever you have a value that is a number, you can use the methods and properties of the number object on it. These methods are helpful when dealing with calculations or animations
 
-**Math Object**
-- 
+**Global Object: Math Object**
+- the math object has properties and methods for mathematical constants and functions.
 
 **Creating an instance of Date Object**
-- Date Object(and time)
-- 
+- in order to work with dates, create an instance of the date object, and then you can specify the time and date that you want it to represent
+- global object - date object(and time)
 
 ## Other Reading:[Domain Modeling](https://github.com/codefellows/domain_modeling#domain-modeling)  
 
