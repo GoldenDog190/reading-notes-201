@@ -18,27 +18,46 @@
 
 ## JS Chapter 3 "Functions, Methods, and Objects"(pp 106-144)
 **Creating an object: Construction Notation**
-- 
+- new keyword and the object constructor create a blank object, and then can add properties and methods to the object.
 
 **Updating an Object**
-- 
+- to update the value of properties, use dot notation or square brackets.
+- they work on objects created using literal or constructor notation.
+- to delete a property, use the delete keyword
 
 **Creating many objects: Constructor Notation**
--
+- *Object constructor* can use a function as a template for creating objects
+- create the template with the object's properties and methods
+- the function has parameters, each one sets the value of a property in the object, and the methods will be the same for each object created using this function
+- you create instances of the object using the *constructor function*
+- New keywords followed by the function creates a new object. The properties of each object are given as arguments to the fuction
 
 **This(keyword)**
--
+- The keyword this is commonly used inside functions and objects. Where the function is declared alters what this means. it always refers to one object, usuallt objects in which the fuction operates
+- *Global scope/ context* is when a function is created at the top level of the script
+- when a function is defined inside an object, it becomes a *method*, and in a method this refers to the contianing object
 
 **Storing Data**
-- 
+- In JS, data is represented using name/value pairs.
+- To organize data, you can use an array or object to group a set of related values. 
+- In arrays and objects the name is also known as a *key*. Arrays can store multiple pieces of information. 
+- Variables have just one key and one value.
+- Objects store sets of name/value pairs
 
 **Arrays**
-- Are Objects:
-- Arrays of objects & objects in arrays
+- Arrays are Objects:
+  * Arrays are special types of object, and hold a related set of key/value pairs, but each key for each value is its own index number
+- Arrays of objects & objects in arrays: 
+  * Can combine arrays and objects to create complex data structures - arrays can store a series of objects and objects can hold arrays.
 
 **Built-in Objects**
-- 
-- 3 Groups of Builtin Objects
+- Browsers come with a set of *built-in objects* that represent things like the browser window and the current web page shown in that window. Built-in objects act like a toolkit for creating interactive web pages. The toolkit has 3 compartments:
+  * browser object model
+  * document object model
+  * global javascript objects
+- *Object model* is a group of objects, each of which represent related things from the real world using data
+- 3 Groups of Builtin Objects:
+  * 
 
 **Browser Object Model**
 - 
