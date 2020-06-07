@@ -22,4 +22,14 @@
 - *Lexical scope*: functions are linked to the object they were defined within.
 
 **Understanding Errors**
-- If JS statement generates an error, then it throws an exception
+- If JS statement generates an error, then it throws an exception.
+- Error Objects: can help you find where your mistakes are
+- To deal with errors either debug the script to fix errors or handle errors gracefully
+- Debugging is about deduction to find and eliminate potential causes of the error. Ask  where is the problem and what exactly the problem.
+
+**Breakpoints**
+- You can pause the execution of a script on any line using breakpoints. Then you can check the values stored in variables at that point in time.
+- Stepping through code: if you set multiple breakpoints, you can step through them one-by-one to see where values change and a problem might occur
+- Conditional breakpionts: you can indicate that a breakpoint should be triggered only if a condition that you specify is met. The condition can use existing variables.
+- Debugger keyword: debugger
+- Handling execptions using the try, catch, and finally method
