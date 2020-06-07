@@ -90,3 +90,22 @@
 **Changing Event Behavior**
 - the event object has methods that change: the default behavior of an element and how the element's ancestors respond to the event
 
+**Which element did an event ocuur on?**
+- When calling a fuction, the event object's target property is the best way to determine which element the event ocuured on
+
+**Different Types of Events**
+- W3C DOM Events
+- HTML5 Events
+- BOM Events
+- User Interface Events
+- Focus & Blur Events
+- Mouse Events
+- Keyboard Events
+- Form Events
+- Mutation Events
+
+**Where Events Occur**
+- The event object can tell you where the cursor was positioned when an event was triggered
+  * screen
+  * page
+  * client
