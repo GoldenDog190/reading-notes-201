@@ -47,3 +47,46 @@
 - Helpful extention that provides tools to show you the CSS styles that apply to an element when you hover over it, along with the structure of the HTML
 
 ## JS Ch 6 "Events" (pp 243-292)
+**Events**
+- Interactions create events
+- Events trigger code 
+- Code responds to users
+
+**Different Event Types**
+- UI Events
+- Keyboard Events
+- Mouse Events
+- Focus Events
+- Form Events
+- Mutation Events
+- Terminology to know: 
+  * Events are *fired* or *raised*, which means they have occured
+  * Events are said to *trigger* a function or script
+
+**How Events Trigger JS Code**
+- When users interact with HTML, there are 3 steps involved in getting it to trigger JS code
+  1. Select the element node(s) you want the script to respond to
+  2. Indicate which event on the selected node(s) will trigger the response
+  3. State the code you want to run when the event occurs
+- 3 ways to bind an event to an element:
+  * HTML event handlers (DO NOT USE)
+  * traditional DOM event handlers
+  * DOM level 2 event listeners
+- Using parameters with event handlers & listeners: becuase you cannot have parentheses after the function names in event handlers or listeners, passing arguments requires a work around
+
+**Event Flow**
+- *Event flow*: HTML elements nest inside other elements, If you hover or click on a link, you will also be hovering or clicking on its parent elements.
+- *Event bubbling*: the event starts at the most specific nodes and flows outwards towards the least specific one
+- *Event capturing*: the event starts at the least specific node and flows inwards to the most specific one
+- The flow of events only really matters when your code has event handlers on an element and one of its ancestors or descendant elelments 
+
+**Event Object**
+- when a event occurs, the event object tells you information about the event, and the element it happened upon.
+
+**Event Delegation**
+- creates event listeners for a lot of elements can slow down a page, but event flows allows you to listen for an event on a parent element
+- benefits: works with new elements, solves limitations with this keyword, and simpilfies code
+
+**Changing Event Behavior**
+- the event object has methods that change: the default behavior of an element and how the element's ancestors respond to the event
+
