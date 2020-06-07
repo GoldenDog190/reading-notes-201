@@ -33,3 +33,18 @@
 - Conditional breakpionts: you can indicate that a breakpoint should be triggered only if a condition that you specify is met. The condition can use existing variables.
 - Debugger keyword: debugger
 - Handling execptions using the try, catch, and finally method
+- Throwing errors: if you know something might go wrong, you can create your own error message with throw new Error('message');
+
+**Debugging Tips**
+- try the code on another browser
+- add numbers
+- strip it back
+- explian the code
+- search
+- code playgrounds
+- validation tools
+
+**Common Errors**
+- not checking for your basics of JS
+- missed/ extra characters
+- data type issues
